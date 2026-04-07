@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@font-face{
+font-family:'next';
+src: url('fonts/NexlineDemo-Regular.otf')format('opentype')
+}
+*{
+  padding: 0px;
+margin: 0px;
+}
+:root {
+  --cor0:#979797 ;
+  --cor01:#979797;
+  --cor02:rgba(255, 255, 255, 0.507);
+}
+
+body{
+background-color:var(--cor02) ;
+background-attachment: fixed;
+box-shadow: rgb(36, 36, 36) 0px 5px 5px; 
+
+background-image: linear-gradient(to top,#ffffff,#0000007a);
+text-align: center;
+min-width: 200px;
+max-width: 800px;
+margin: auto;
+
+
+}
+ 
+h1{ 
+  padding-top: 10px;
+  margin: auto;
+  text-decoration: black;
+font-size: 2em;
+  font-family:'next' ;
+font-weight: normal;
+
+}
+ h2{
+  font-size: 2em;
+  font-family:'next';
+  font-weight: normal;
+  background-color: #979797;
+  border-radius: 5px 5px;
+  box-shadow: 1px 5px black;
+  margin: 10px;
+padding: 10px;
+ 
+ }
+
+
+ h3{
+  font-family:'next' ;
+  height: normal;
+  text-align: center;
+  background-color: #979797;
+  margin: 10px;
+  padding: 10px;
+border-radius: 5px 5px;
+box-shadow: 5px 5px black;
+ }
+ p{
+ 
+  border-radius: 1px 6px;
+  box-shadow: 2px  5px  black;
+
+  
+}
+ p > a {
+  text-decoration: none;
+  color: black;
+  background-color: #979797;
+  font-size: 1,5em;
+  transition-duration: 0,5s;
+ }
+p#jhon{
+
+  font-family:'next' ;
+  background-color:#979797 ;
+  color: rgb(255, 255, 255);
+  
+margin: 10px;
+padding: 6px 6px;
+}
+p#esporte{
+  background-color: #979797;
+  font-family: "next";
+  text-decoration: none;
+margin: 10px;
+padding: 10px;
+  
+}
+img{
+  
+  border-radius: 5px 5px;
+}
+p >a:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  
+  
+
+}
+footer{
+background-color: rgba(202, 202, 202, 0.518);
+
+}
+footer > p{
+  background-color: rgba(98, 97, 97, 0.37);
+  font-family: 'next';
+  padding: 7px;
+  margin: 5px;
+  border-radius: 0px 5px 10px black;
+}
