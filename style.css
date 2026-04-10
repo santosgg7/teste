@@ -15,12 +15,12 @@ margin: 0px;
 
 body{
 background-color:var(--cor02) ;
-background-attachment: fixed;
+
 box-shadow: rgb(36, 36, 36) 0px 5px 5px; 
 
 background-image: linear-gradient(to top,#ffffff,#0000007a);
 text-align: center;
-min-width: 200px;
+
 max-width: 800px;
 margin: auto;
 
@@ -106,9 +106,10 @@ background-color: rgba(202, 202, 202, 0.518);
 
 }
 footer > p{
-  background-color: rgba(98, 97, 97, 0.37);
+  
   font-family: 'next';
-  padding: 7px;
+  padding: 
+  5px;
   margin: 5px;
   border-radius: 0px 5px 10px black;
 }
